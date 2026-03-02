@@ -7,7 +7,7 @@ layout: blog_page_scix
 <div class="container">
     <div class="row">
 
-{% for post in site.posts %}
+{% for post in site.posts %}sdfsdf
 
     {% if post.category == 'scixblog' %}
 
