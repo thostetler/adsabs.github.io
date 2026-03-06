@@ -3,8 +3,7 @@
   {% include head_default.html %}
 
   <body>
-    {% include header_default.html subtitle="blog" subpath="blog" search=false
-    %}
+    {% include header_default.html subtitle="blog" subpath="blog" %}
 
     <div class="smart-container row">
       <div class="col-xs-4 col-md-2 rss-container">
@@ -19,9 +18,6 @@
         <a href="{{ site.baseurl }}/blog/technical-posts">technical</a>
       </div>
 
-      <div class="search-bar-container col-xs-12 col-md-6">
-        <div class="pull-right">{% include search.html %}</div>
-      </div>
     </div>
     <div class="page-content smart-container">{{ content }}</div>
 

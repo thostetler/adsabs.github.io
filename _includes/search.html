@@ -1,12 +1,38 @@
-<script>
-  (function () {
-    var cx = '016381517138775266827:j_b8wqloe18';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
+<li class="navbar-search-toggle">
+  <button
+    type="button"
+    class="btn btn-link"
+    aria-label="Search help pages"
+    data-search-toggle
+  >
+    <i class="fa fa-search navbar-search-icon" aria-hidden="true"></i>
+    <span class="navbar-search-label"> Search</span>
+  </button>
+</li>
+<li class="navbar-search-form navbar-search-hidden" aria-expanded="false">
+  <form
+    role="search"
+    aria-label="Search help pages"
+    data-search-form
+  >
+    <div class="navbar-search-input-group">
+      <input
+        type="search"
+        name="q"
+        class="navbar-search-input"
+        placeholder="Search..."
+        aria-label="Search query"
+        autocomplete="off"
+        data-search-input
+      />
+      <button
+        type="button"
+        class="navbar-search-close"
+        aria-label="Close search"
+        data-search-close
+      >
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </button>
+    </div>
+  </form>
+</li>

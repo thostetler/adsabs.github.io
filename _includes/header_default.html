@@ -13,6 +13,9 @@
 
     <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
+        {% unless include.search == false %}
+        {% include search.html %}
+        {% endunless %}
         <li class="dropdown">
           <button
             type="button"

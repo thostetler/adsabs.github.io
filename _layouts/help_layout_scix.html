@@ -5,13 +5,7 @@
   <body>
     {% include header_default_scix.html subtitle="help" subpath="scixhelp" %}
 
-    <div class="smart-container">
-      <div class="search-bar-container pull-right col-xs-12 col-md-6">
-        {% include search.html %}
-      </div>
-    </div>
-
-    <div class="page-content smart-container">{{ content }}</div>
+    <main class="page-content smart-container">{{ content }}</main>
 
     {% include footer_default_scix.html %}
 
